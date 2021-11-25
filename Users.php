@@ -2,7 +2,7 @@
 <html>
 <head>
     
-    <title>Page title</title>
+    <title>Users</title>
     
 </head>
 <body>
