@@ -6,6 +6,7 @@
   
 </head>
 <body>
+    The book you searched for does not exist, try again:
 
 <form action="searchprocess.php" method= "POST">
   Book title:<input type="text" name="title"><br>
