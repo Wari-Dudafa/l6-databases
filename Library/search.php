@@ -3,6 +3,7 @@
 <head>
   
    <title>BookSearch</title>
+   <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
@@ -13,7 +14,7 @@
     Author's surname:<input type="text" name="authorsurname"><br>
 
     <input type="submit" value="Search">
-    </form>  
+  </form>  
 
 </form>
 

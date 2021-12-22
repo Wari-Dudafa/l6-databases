@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     
-    <title>Index</title>
+        <title>Index</title>
+        <link rel="stylesheet" href="style.css">
+        <h1>Login</p1><br>
     
-</head>
-<body>
-<A HREF="signup.php">Sign up</A> <br>
-<A HREF="login.php">Login</A>
-
-</body>
+    </head>
+    <body>
+        <ul>
+            <li><A HREF="signup.php">Sign up</A> <br></li>
+            <li><A HREF="login.php">Login</A></li>
+        </ul>
+    </body>
 </html>

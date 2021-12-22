@@ -3,6 +3,7 @@
 <head>
     
     <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
