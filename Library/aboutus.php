@@ -7,6 +7,7 @@
 <body>
     <nav>
         <ul>
+            <li><img src="Logo.png" alt="Logo3" style="width:100;height:100px;"></li>
             <li><A HREF="index.php">Home</A> <br></li>
             <li><A HREF="signup.php">Sign up</A> <br></li>
             <li><A HREF="aboutus.php">About us</A></li>

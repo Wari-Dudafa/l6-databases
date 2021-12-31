@@ -9,6 +9,7 @@
 <body>
     <nav>
         <ul>
+            <li><img src="Logo.png" alt="Logo3" style="width:100;height:100px;"></li>
             <li><A HREF="aboutus.php">About us</A> <br></li>
             <li><A HREF="search.php">Search for a book</A> <br></li>
             <li><A HREF="index.php">Log out</A> <br></li>

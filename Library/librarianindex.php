@@ -11,6 +11,7 @@
 
     <nav>
         <ul>
+            <li><img src="Logo.png" alt="Logo3" style="width:100;height:100px;"></li>
             <li><A HREF="Users.php">Add users</A> <br></li>
             <li><A HREF="search.php">Search for a book</A> <br></li>
             <li><A HREF="books.php">Add a book</A> <br></li>
