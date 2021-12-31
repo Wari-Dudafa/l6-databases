@@ -7,7 +7,16 @@
     
 </head>
 <body>
-      
+  <nav>
+      <ul>
+        <li><A HREF="index.php">Home</A> <br></li>
+        <li><A HREF="signup.php">Sign up</A> <br></li>
+        <li><A HREF="aboutus.php">About us</A></li>
+      </ul>
+
+  </nav>   
+
+  <h1>Sign up</h1>
 <form action="addusers.php" method="post">
   First name:<input type="text" name="forename"><br>
   Last name:<input type="text" name="surname"><br>

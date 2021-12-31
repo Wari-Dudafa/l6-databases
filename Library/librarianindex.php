@@ -7,10 +7,21 @@
     
 </head>
 <body>
-<A HREF="Users.php">Add users</A> <br>
-<A HREF="search.php">Search for a book</A> <br>
-<A HREF="books.php">Add a book</A> <br>
-<A HREF="index.php">Log out</A>
+
+
+    <nav>
+        <ul>
+            <li><A HREF="Users.php">Add users</A> <br></li>
+            <li><A HREF="search.php">Search for a book</A> <br></li>
+            <li><A HREF="books.php">Add a book</A> <br></li>
+            <li><li><A HREF="aboutus.php">About us</A><br></li>
+            <li><A HREF="index.php">Log out</A></li>
+        </ul>
+
+    </nav>   
+    <h1>Welcome Librarian!</h1>
+    <h3>We now have a 208% increase in people reading books. You should be proud, we could not have done it without you!<h3>
+    <img src="Library2.jpg" alt="Library2">
 
 
 </body>

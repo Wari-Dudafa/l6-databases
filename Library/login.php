@@ -13,6 +13,8 @@
  Password:<input type="password" name="Pword"><br>
   <input type="submit" value="Login">
 </form>
+<h3> Your login information was incorrect</h3><br>
+<h3><A HREF="index.php">Click here to go Home</A></h3>
 
 
 </body>
