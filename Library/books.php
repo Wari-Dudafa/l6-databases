@@ -19,5 +19,6 @@
   <input type="submit" value="Add Book">
 </form>
  
+<h3><A HREF="librarianindex.php">Click here to go back</A></h3>
 </body>
 </html>

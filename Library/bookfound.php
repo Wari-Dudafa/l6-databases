@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+
+	<title>Book found</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<h3>The book you are looking for is:</h3>
 	
 </body>
 </html>
@@ -17,3 +16,5 @@
 include_once ("connection.php");
 print_r($_POST);
 ?>
+
+<h3>and it is currently:</h3>

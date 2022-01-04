@@ -1,36 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	
-</body>
-</html>
+<?php 
 
-
-<?php
-include_once ("connection.php");
-print_r($_POST);
-array_map("htmlspecialchars", $_POST);
-$stmt = $conn->prepare("SELECT * FROM tblbooks WHERE title =:title ;" );
-$stmt->bindParam(':title', $_POST['title']);
-$stmt->execute();
-while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
+header('Location:bookfound.php'); 
+ini_set('display_errors', 1); 
+ini_set('display_startup_errors', 1); 
+error_reporting(E_ALL); 
+try{ 
+    include_once('connection.php'); 
+    array_map("htmlspecialchars", $_POST); 
+    $stmt = $conn->prepare("INSERT INTO TblBooks (BookID,AuthorSurname,Title)VALUES (NULL,:authorsurname,:title)"); 
+    $stmt->bindParam(':authorSurname', $_POST["authorSurname"]); 
+    $stmt->bindParam(':title', $_POST["title"]); 
+    $stmt->execute(); 
+    } 
+catch(PDOException $e) 
 { 
-    print_r($row);
-    if($row['AuthorSurname']== $_POST['authorsurname']){
-        header('Location: bookfound.php');
+    echo "error".$e->getMessage(); 
+} 
 
-    }else{
+$conn=null; 
 
-        header('Location: search.php');
-    }
-}
-$conn=null;
-//header('Location: login.php');
-?>
+?> 
